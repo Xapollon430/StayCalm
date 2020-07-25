@@ -12,6 +12,8 @@ app.get("/staycalm", (req, res) => {
   res.send("StayCalm Project Server started");
 });
 
+const x = "Test";
+
 app.get("/", (req, res) => {
   res.render("landing");
 });
